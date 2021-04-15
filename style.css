@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url('./background.jpg') bottom center;
+  background: url('./photo-1598488035139-bdbb2231ce04.jpg') bottom center;
   background-size: cover;
 }
 
@@ -19,23 +19,24 @@ body,html {
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid rgb(222, 64, 243);
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
-  transition: all .07s;
+  transition: all .05s;
   width: 10rem;
   text-align: center;
-  color: #ffc600;
-  background: rgba(0,0,0,0.4);
+  color: #ffffff;
+  background: rgba(134, 10, 172, 0.171);
   text-shadow: 0 0 5px white;
+  font-family: monospace;
 }
 
 .playing {
   transform: scale(1.1);
   border-color: ffc600;
-  box-shadow: 0 0 10px #ffc600;
+  box-shadow: 0 0 10px #3cff00;
 }
 
 kbd {
@@ -48,4 +49,15 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: white;
+  font-family: monospace;
+
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+color:purple;
+text-shadow: 0 0 10px white;
+font-family: graduate;
+
 }
