@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url('./photo-1598488035139-bdbb2231ce04.jpg') bottom center;
+  background: url('./background.jpg') bottom center;
   background-size: cover;
 }
 
@@ -19,7 +19,7 @@ body,html {
 }
 
 .key {
-  border: .4rem solid white;
+  border: .4rem solid black;
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -27,15 +27,15 @@ body,html {
   transition: all .07s;
   width: 10rem;
   text-align: center;
-  color: rgb(117, 1, 153);
+  color: #ffc600;
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 5px white;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #a047e9;
-  box-shadow: 0 0 10px #a047e9;
+  border-color: ffc600;
+  box-shadow: 0 0 10px #ffc600;
 }
 
 kbd {
@@ -47,5 +47,5 @@ kbd {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #e3d4f0;
+  color: white;
 }
